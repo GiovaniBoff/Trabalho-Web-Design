@@ -82,7 +82,7 @@ button {
 
 footer{
     position: absolute;
-    background-image: url("/assets/Subtract.svg");
+    background-image: url("../assets/Subtract.svg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;

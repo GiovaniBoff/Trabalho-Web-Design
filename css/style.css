@@ -6,6 +6,8 @@
     --blue: #173156;
     --grey: #838383;
     --white:#FFFFFF;
+    --shadow-black: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    --shadow-grey: 0px 0px 20px rgba(92, 88, 88, 0.5);
 }
 
 *{
@@ -20,12 +22,11 @@ body{
 
 header {
     display: flex;
-    justify-content: center;
     background: var(--rose);
-    width: 100vw;
-    height: 168px;
-    border-radius: 0 0 15px 15px;
-    
+    width: 99vw;
+    height: 25vh;
+    border-radius: 0 0 30px 30px;
+    margin: auto;
 }
 
 header > div{
@@ -34,27 +35,67 @@ header > div{
     padding: 50px;
     margin-top: 50px;
     background: var(--white);
-    width: 80vw;
+    width: 70vw;
     border-radius: 20px;
     text-align: center;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: var(--shadow-black);
 }
-
+header > div > h1{
+    width: 25vw;
+    margin: auto;
+}
+header > div > h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 1em;
+    
+}
 main{
     display: flex;
-    height: 100vh;
+    height: 35vh;
 }
+
+button {
+    margin: auto;
+    width: 250px;
+    height: 50px;
+    border-radius: 16px;
+    font-size: 1.1em;
+    border: 2px solid var(--rose);
+    background: var(--rose);
+    color: var(--white);
+    box-shadow: var(--shadow-grey);
+}
+.img-container > img{
+    background-image: url("/assets/sorvete.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+    justify-content: center;
+    margin: auto;
+    justify-content: center;
+
+}
+/* .round-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: 2px solid var(--rose);
+    background: var(--rose);
+    color: #fff;
+} */
 
 
 footer{
     position: absolute;
-    
     background-image: url("/assets/Subtract.svg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    background-position-y: -25px;
-    width: 100vw;
-    height: 280px;
+    width: 99.9vw;
+    height: 40vh;
     margin: auto;
-}
+  
+} 

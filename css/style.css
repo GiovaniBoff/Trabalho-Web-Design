@@ -21,18 +21,18 @@ body{
 }
 
 header {
+    margin: auto;
     display: flex;
     background: var(--rose);
     width: 99vw;
     height: 25vh;
     border-radius: 0 0 30px 30px;
-    margin: auto;
+    
 }
 
 header > div{
-    position: relative;
     margin: auto;
-    padding: 50px;
+    padding: 30px 100px;
     margin-top: 50px;
     background: var(--white);
     width: 70vw;
@@ -52,12 +52,11 @@ header > div > h2{
     
 }
 main{
-    display: flex;
-    height: 35vh;
+    display: flex; 
 }
 
 button {
-    margin: auto;
+    margin:auto;
     width: 250px;
     height: 50px;
     border-radius: 16px;
@@ -67,16 +66,9 @@ button {
     color: var(--white);
     box-shadow: var(--shadow-grey);
 }
-.img-container > img{
-    background-image: url("/assets/sorvete.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    position: relative;
-    justify-content: center;
-    margin: auto;
-    justify-content: center;
-
+.img-container{
+    
+    margin: auto;    
 }
 /* .round-button {
     width: 60px;
@@ -97,5 +89,4 @@ footer{
     width: 99.9vw;
     height: 40vh;
     margin: auto;
-  
 } 

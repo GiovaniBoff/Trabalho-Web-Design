@@ -51,8 +51,48 @@ header > div > h2{
     font-size: 1em;
     
 }
+
 main{
     display: flex; 
+}
+
+.menu-principal{
+    top: 30px;
+    position: fixed;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 100%;
+}
+.menu-principal li{
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    border-radius: 100px;
+    box-shadow: 1px 0 10px rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFFF;
+}
+
+
+li:nth-child(1){
+    background-image: url("/assets/casquinha.png");
+    background-position-y: 32px;
+}
+li:nth-child(2){
+    background-image: url("/assets/casquinha-morango.png");
+    background-size: 45%;
+}
+li:nth-child(3){
+    background-image: url("/assets/casquinha-cobertura.png");
+    background-position-y: 10px;
+    background-size: 70%;
+}
+li:nth-child(4){
+    background-image: url("/assets/casquinha-cobertura-confeitos.png");
+    background-position-y: 26px;
+    background-size: 90%;
 }
 
 button {
@@ -67,9 +107,10 @@ button {
     box-shadow: var(--shadow-grey);
 }
 .img-container{
-    
-    margin: auto;    
+    margin: auto;
 }
+
+
 /* .round-button {
     width: 60px;
     height: 60px;
